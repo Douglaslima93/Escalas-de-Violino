@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/CSS/header.css">
     <link rel="stylesheet" href="assets/CSS/figure.css">
     <link rel="stylesheet" href="assets/CSS/main.css">
-    <script src="assets/JavaScript/"></script>
+    
 </head>
 <body>
 
@@ -31,66 +31,108 @@
 
     <main>
 
-        <section class="solmaior">
+        <section class="mimaior">
             <div>
-                <h2>G (Sol Maior)</h2>
-                <input type="button" value="Sol" id="nota" onclick="document.addEventListener('click')">
-                <input type="button" value="La" id="nota" onclick="click" placeholder="A">
-                <input type="button" value="Si" id="nota" onclick="click" placeholder="B">
-                <input type="button" value="Do" id="nota" onclick="click" placeholder="C">
-                <input type="button" value="Re" id="nota" onclick="click" placeholder="D">
-                <input type="button" value="Mi" id="nota" onclick="click" placeholder="E">
-                <input type="button" value="Fa" id="nota" onclick="click" placeholder="F">
-                <input type="button" value="Sol" id="nota" onclick="click" placeholder="G">
-                <input class="acordesol" type="button" value="acordesol" id="nota" onclick="click" placeholder="Compl">
-            </div>
-        </section>
+                <h2>E (Mi Maior)</h2>
+                <button id="Mi" class="nota" onclick="play()">E</button>
+                <button id="Fa" class="nota" onclick="play()">F</button>
+                <button id="Sol" class="nota" onclick="play()">G</button>
+                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="Si" class="nota" onclick="play()">B</button>
+                <button id="Do" class="nota" onclick="play()">C</button>
+                <button id="Re" class="nota" onclick="play()">D</button>
+                <button id="Mi" class="nota" onclick="play()">E</button>
+                <button id="acordemi" class="acorde" onclick="play()">Acorde</button>
 
-        <section class="remaior">
-            <div>
-                <h2>D (Re Maior)</h2>
-                <input type="button" value="Re" id="nota" onclick="click" placeholder="D">
-                <input type="button" value="Mi" id="nota" onclick="click" placeholder="E">
-                <input type="button" value="Fa" id="nota" onclick="click" placeholder="F">
-                <input type="button" value="Sol" id="nota" onclick="click" placeholder="G">
-                <input type="button" value="La" id="nota" onclick="click" placeholder="A">
-                <input type="button" value="Si" id="nota" onclick="click" placeholder="B">
-                <input type="button" value="Do" id="nota" onclick="click" placeholder="C">
-                <input type="button" value="Re" id="nota" onclick="click" placeholder="D">
-                <input class="acordere" type="button" value="acordere" id="nota" onclick="click" placeholder="Compl">
+                <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio> 
             </div>
         </section>
 
         <section class="lamaior">
             <div>
                 <h2>A (La Maior)</h2>
-                <input type="button" value="La" id="nota" onclick="click" placeholder="A">
-                <input type="button" value="Si" id="nota" onclick="click" placeholder="B">
-                <input type="button" value="Do" id="nota" onclick="click" placeholder="C">
-                <input type="button" value="Re" id="nota" onclick="click" placeholder="D">
-                <input type="button" value="Mi" id="nota" onclick="click" placeholder="E">
-                <input type="button" value="Fa" id="nota" onclick="click" placeholder="F">
-                <input type="button" value="Sol" id="nota" onclick="click" placeholder="G">
-                <input type="button" value="La" id="nota" onclick="click" placeholder="A">
-                <input class="acordela" type="button" value="acordela" id="nota" onclick="click" placeholder="Compl">
+                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="Si" class="nota" onclick="play()">B</button>
+                <button id="Do" class="nota" onclick="play()">C</button>
+                <button id="Re" class="nota" onclick="play()">D</button>
+                <button id="Mi" class="nota" onclick="play()">E</button>
+                <button id="Fa" class="nota" onclick="play()">F</button>
+                <button id="Sol" class="nota" onclick="play()">G</button>
+                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="acordela" class="acorde" onclick="play()">Acorde</button>
+
+                <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio> 
             </div>
         </section>
 
-        <section class="mimaior">
+        <section class="remaior">
             <div>
-                <h2>E (Mi Maior)</h2>
-                <input type="button" value="Mi" id="nota" onclick="click" placeholder="E">
-                <input type="button" value="Fa" id="nota" onclick="click" placeholder="F">
-                <input type="button" value="Sol" id="nota" onclick="click" placeholder="B">
-                <input type="button" value="La" id="nota" onclick="click" placeholder="A">
-                <input type="button" value="Si" id="nota" onclick="click" placeholder="B">
-                <input type="button" value="Do" id="nota" onclick="click" placeholder="C">
-                <input type="button" value="Re" id="nota" onclick="click" placeholder="D">
-                <input type="button" value="Mi" id="nota" onclick="click" placeholder="E">
-                <input class="acordemi" type="button" value="acordemi" id="nota" onclick="click" placeholder="Compl">
+                <h2>D (Re Maior)</h2>
+                <button id="Re" class="nota" onclick="play()">D</button>
+                <button id="Mi" class="nota" onclick="play()">E</button>
+                <button id="Fa" class="nota" onclick="play()">F</button>
+                <button id="Sol" class="nota" onclick="play()">G</button>
+                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="Si" class="nota" onclick="play()">B</button>
+                <button id="Do" class="nota" onclick="play()">C</button>
+                <button id="Re" class="nota" onclick="play()">D</button>
+                <button id="acordere" class="acorde" onclick="play()">Acorde</button>
+
+                <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio> 
             </div>
         </section>
+
+        <section class="solmaior">
+            <div>
+                <h2>G (Sol Maior)</h2>
+                <button id="Sol" class="nota" onclick="play()">G</button>
+                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="Si" class="nota" onclick="play()">B</button>
+                <button id="Do" class="nota" onclick="play()">C</button>
+                <button id="Re" class="nota" onclick="play()">D</button>
+                <button id="Mi" class="nota" onclick="play()">E</button>
+                <button id="Fa" class="nota" onclick="play()">F</button>
+                <button id="Sol" class="nota" onclick="play()">G</button>
+                <button id="acordesol" class="acorde" onclick="play()">Acorde</button>
+
+                <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
+                <audio id="audiola" src="assets/Audio/teste2.mp3"></audio> 
+            </div>
+        </section>
+        
     </main>
+    <script src="assets/JavaScript/solmaior.js"></script>
 
 
 </body>

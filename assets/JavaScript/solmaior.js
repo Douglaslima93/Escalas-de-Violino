@@ -1,6 +1,20 @@
-function solmaior(notasol){
-    notasol = document.querySelector('#nota')
-    notasol.addEventListerner('click')
-    notasol = new Audio ("assets/Audio/teste.mp3").play()
-}
+const buttonsol = document.querySelector('#Sol')
+const buttonla = document.querySelector('#La')
+
+ buttonsol.addEventListener('click', function(){
+    const audio = document.querySelector('#audiosol')
+    audio.play()
+ })
+
+ buttonla.addEventListener('click', function(){
+    const audio = document.querySelector('#audiola')
+    audio.play()
+ })
+
+
+
+
+
+
+
 
