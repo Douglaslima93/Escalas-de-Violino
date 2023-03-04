@@ -8,41 +8,46 @@
     <link rel="stylesheet" href="assets/CSS/header.css">
     <link rel="stylesheet" href="assets/CSS/figure.css">
     <link rel="stylesheet" href="assets/CSS/main.css">
+    <link rel="stylesheet" href="assets/CSS/body.css">
     
 </head>
 <body>
 
-    <header>
-        <h1>Escalas de Violino</h1>
-        <h2>Quais são os acordes do violino?</h2>
-        <p>O <strong>violino</strong> é um instrumento de cordas atritadas, ou seja, ele produz som
-        através do atrito entre as cordas e o arco (peça manuseada pelo músico). Ao todo, um
+    <header class="containertexto">
+        <h1 class="titulo">Escalas de Violino</h1>
+        <h2 class="subtitulo">Quais são os acordes do violino?</h2>
+        <p class="paragrafo">O <strong>violino</strong> é um instrumento de cordas atritadas, ou seja, ele produz som
+        através do atrito entre as cordas e o arco (peça manuseada pelo músico). <br>Ao todo, um
         <strong>violino</strong> possui quatro <strong>notas</strong>, sendo elas (da maior para a menor):</p>
-        <h2>As notas de um violino são:</h2>
+        <h2 class="subtitulo">As notas de um violino são:</h2>
+        <ul class="tnota">
         <li>Mi  (E)</li>
         <li>Lá  (A)</li>
         <li>Ré  (D)</li>
         <li>Sol (G)</li>
+    </ul>
     </header>
     
-    <figure>
-        <!--<img src="assets/img/Foto-capa.jpg" alt="Foto-capa">-->
+    <figure class="img">
+        
+       
+        
     </figure>
 
-    <main>
+    <main class="main">
 
         <section class="mimaior">
             <div>
-                <h2>E (Mi Maior)</h2>
+                <h2 class="notamusical">E (Mi Maior)</h2>
                 <button id="Mi" class="nota" onclick="play()">E</button>
                 <button id="Fa" class="nota" onclick="play()">F</button>
-                <button id="Sol" class="nota" onclick="play()">G</button>
-                <button id="La" class="nota" onclick="play()">A</button>
+                <button id="SolM" class="nota" onclick="play()">G</button>
+                <button id="Lam" class="nota" onclick="play()">A</button>
                 <button id="Si" class="nota" onclick="play()">B</button>
                 <button id="Do" class="nota" onclick="play()">C</button>
                 <button id="Re" class="nota" onclick="play()">D</button>
                 <button id="Mi" class="nota" onclick="play()">E</button>
-                <button id="acordemi" class="acorde" onclick="play()">Acorde</button>
+                <button id="acordemi" class="acorde" onclick="play()">ACORDE</button>
 
                 <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
                 <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
@@ -58,7 +63,7 @@
 
         <section class="lamaior">
             <div>
-                <h2>A (La Maior)</h2>
+                <h2 class="notamusical">A (La Maior)</h2>
                 <button id="La" class="nota" onclick="play()">A</button>
                 <button id="Si" class="nota" onclick="play()">B</button>
                 <button id="Do" class="nota" onclick="play()">C</button>
@@ -67,7 +72,7 @@
                 <button id="Fa" class="nota" onclick="play()">F</button>
                 <button id="Sol" class="nota" onclick="play()">G</button>
                 <button id="La" class="nota" onclick="play()">A</button>
-                <button id="acordela" class="acorde" onclick="play()">Acorde</button>
+                <button id="acordela" class="acorde" onclick="play()">ACORDE</button>
 
                 <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
                 <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
@@ -83,7 +88,7 @@
 
         <section class="remaior">
             <div>
-                <h2>D (Re Maior)</h2>
+                <h2 class="notamusical">D (Re Maior)</h2>
                 <button id="Re" class="nota" onclick="play()">D</button>
                 <button id="Mi" class="nota" onclick="play()">E</button>
                 <button id="Fa" class="nota" onclick="play()">F</button>
@@ -92,7 +97,7 @@
                 <button id="Si" class="nota" onclick="play()">B</button>
                 <button id="Do" class="nota" onclick="play()">C</button>
                 <button id="Re" class="nota" onclick="play()">D</button>
-                <button id="acordere" class="acorde" onclick="play()">Acorde</button>
+                <button id="acordere" class="acorde" onclick="play()">ACORDE</button>
 
                 <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
                 <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>
@@ -108,7 +113,7 @@
 
         <section class="solmaior">
             <div>
-                <h2>G (Sol Maior)</h2>
+                <h2 class="notamusical">G (Sol Maior)</h2>
                 <button id="Sol" class="nota" onclick="play()">G</button>
                 <button id="La" class="nota" onclick="play()">A</button>
                 <button id="Si" class="nota" onclick="play()">B</button>
@@ -117,7 +122,7 @@
                 <button id="Mi" class="nota" onclick="play()">E</button>
                 <button id="Fa" class="nota" onclick="play()">F</button>
                 <button id="Sol" class="nota" onclick="play()">G</button>
-                <button id="acordesol" class="acorde" onclick="play()">Acorde</button>
+                <button id="acordesol" class="acorde" onclick="play()">ACORDE</button>
 
                 <audio id="audiosol" src="assets/Audio/teste.mp3"></audio>
                 <audio id="audiola" src="assets/Audio/teste2.mp3"></audio>

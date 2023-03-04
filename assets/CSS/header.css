@@ -1,3 +1,27 @@
-header{
-    background-size: contain ;
+.containertexto{
+    font-family: times new Roman;
+    color: black;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+.paragrafo{
+    font-size: 25px;
+}
+
+strong{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.tnota{
+    font-size: 20px;
+    color: aliceblue;
 }

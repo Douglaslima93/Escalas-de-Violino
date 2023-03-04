@@ -1,5 +1,5 @@
-const buttonsol = document.querySelector('#Sol')
-const buttonla = document.querySelector('#La')
+const buttonsol = document.querySelector('#SolM')
+const buttonla = document.querySelector('#Lam')
 
  buttonsol.addEventListener('click', function(){
     const audio = document.querySelector('#audiosol')

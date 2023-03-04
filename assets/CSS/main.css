@@ -1,10 +1,18 @@
+
+.main{
+    font-family: times new Roman;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
 .nota{
     width: 50px;
     height: 50px;
     padding: 10px;
     border-radius: 25px;
     cursor: pointer;
-    color: black;
+    
 }
 
 .acorde{
@@ -13,5 +21,5 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    color: black;
+    
 }
