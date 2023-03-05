@@ -1,6 +1,6 @@
 .containertexto{
     font-family: times new Roman;
-    color: black;
+    color: white
 }
 
 .titulo{
@@ -18,7 +18,7 @@
 
 strong{
     font-weight: bold;
-    color: aliceblue;
+    color: black;
 }
 
 .tnota{
