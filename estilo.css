@@ -1,6 +1,6 @@
 /*Estilização Body */
 body{
-    background: url("/assets/img/capa1.jpg");
+    background: url("foto-capa.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
