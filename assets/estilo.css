@@ -1,0 +1,67 @@
+/*Estilização Body */
+body{
+    background: url("/assets/img/capa1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*----------------------------*/
+
+
+
+/*Estilização header */
+.containertexto{
+    font-family: times new Roman;
+    color: white
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+.paragrafo{
+    font-size: 25px;
+}
+
+strong{
+    font-weight: bold;
+    color: black;
+}
+
+.tnota{
+    font-size: 20px;
+    color: aliceblue;
+}
+/*----------------------------*/
+
+
+/*Estilização main */
+.main{
+    font-family: times new Roman;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.nota{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.acorde{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/*----------------------------*/
